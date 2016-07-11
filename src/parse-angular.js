@@ -24,10 +24,6 @@
 						prototype: ['save', 'fetch', 'destroy'],
 						static: ['saveAll', 'destroyAll']
 					},
-					"Collection": {
-						prototype: ['fetch'],
-						static: []
-					},
 					"Query": {
 						prototype: ['find', 'first', 'count', 'get'],
 						static: []
